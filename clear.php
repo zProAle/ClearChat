@@ -52,7 +52,7 @@ $MadelineProto->loop(function () use ($MadelineProto) {
 				sleep(1);
 			}
 		} catch (Exception $e) {
-			echo 'Porcodio! Exception errore: ',  $e->getMessage(), "\n";
+			echo 'Exception error: ',  $e->getMessage(), "\n";
 		}
 	}
 
